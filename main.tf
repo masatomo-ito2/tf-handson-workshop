@@ -15,6 +15,7 @@ resource "aws_instance" "hello-tf-instance" {
   instance_type = var.hello_tf_instance_type
 
 	tags = map(
+		"Name", "tf-hands-on",
 		"owner", "masa",
 		"ttl", "100"
   )
