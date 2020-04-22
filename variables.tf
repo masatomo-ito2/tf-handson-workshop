@@ -1,4 +1,4 @@
-
+/*
 variable "access_key" {}
 variable "secret_key" {}
 variable "region" {}
@@ -10,3 +10,4 @@ variable "hello_tf_instance_type" {
     default = "t2.micro"
 }
 
+*/
